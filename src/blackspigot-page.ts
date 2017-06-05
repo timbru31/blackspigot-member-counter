@@ -2,7 +2,15 @@ import * as webdriverio from 'webdriverio';
 import { Page } from './abstract-page';
 
 export class BlackSpigotPage extends Page {
-  private client: webdriverio.Client<void>;
+  private _client: webdriverio.Client<void>;
+
+  get client() {
+    return this._client;
+  }
+
+  set client(client) {
+    this._client = client;
+  }
 
   constructor() {
     super();
