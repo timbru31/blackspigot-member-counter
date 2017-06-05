@@ -22,8 +22,7 @@ export class BlackSpigotPage extends Page {
           args: [
             'headless',
             'disable-gpu'
-          ],
-          binary: '/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary',
+          ]
         }
       }
     });
