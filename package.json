@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A WebDriver backed utility to get the current BlackSpigotMC member count",
   "scripts": {
-    "prepublish": "rm -rf dist",
+    "prepublish": "rimraf dist",
     "lint": "tslint -p tsconfig.json .",
     "test": "jest",
     "release": "standard-version",
@@ -23,11 +23,12 @@
   },
   "devDependencies": {
     "@types/jest": "~19.2.4",
-    "chromedriver": "^2.29.0",
+    "chromedriver": "~2.29.0",
     "cz-customizable": "~5.0.0",
     "jest": "~20.0.4",
+    "rimraf": "~2.6.1",
     "standard-version": "~4.0.0",
-    "ts-jest": "^20.0.5",
+    "ts-jest": "~20.0.5",
     "tslint": "~5.4.2"
   },
   "config": {
