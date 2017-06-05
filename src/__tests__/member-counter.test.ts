@@ -11,7 +11,7 @@ beforeAll(() => {
 test('getUserCount', async () => {
   jasmine.DEFAULT_TIMEOUT_INTERVAL = 15000;
   expect.assertions(1);
-  const members = await getUserCount();
+  const members = await getUserCount().catch((e: Error) => console.log(e));
   expect(members).toBeGreaterThanOrEqual(24940);
 });
 
