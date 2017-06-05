@@ -1,6 +1,7 @@
 {
   "extends": ["tslint:latest"],
   "rules": {
+    "no-floating-promises": true,
     "quotemark": [
       true,
       "single"
@@ -8,6 +9,9 @@
     "trailing-comma": [
       false
     ],
-    "no-floating-promises": true
+    "variable-name": [
+      true,
+      "allow-leading-underscore"
+    ]
   }
 }
