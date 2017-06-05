@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A WebDriver backed utility to get the current BlackSpigotMC member count",
   "scripts": {
-    "prepublish": "rimraf dist",
+    "prepublish": "rimraf ./dist",
     "lint": "tslint -p tsconfig.json .",
     "test": "jest",
     "release": "standard-version",
