@@ -5,6 +5,7 @@
   "scripts": {
     "prepublish": "rm -rf dist",
     "lint": "tslint -p tsconfig.json .",
+    "test": "jest",
     "release": "standard-version",
     "start": "ts-node ./src/member-counter.ts"
   },
@@ -21,8 +22,12 @@
     "webdriverio": "~4.8.0"
   },
   "devDependencies": {
+    "@types/jest": "~19.2.4",
+    "chromedriver": "^2.29.0",
     "cz-customizable": "~5.0.0",
+    "jest": "~20.0.4",
     "standard-version": "~4.0.0",
+    "ts-jest": "^20.0.5",
     "tslint": "~5.4.2"
   },
   "config": {
@@ -45,5 +50,17 @@
     "webdriver",
     "webdriverio",
     "selenium"
-  ]
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
 }
