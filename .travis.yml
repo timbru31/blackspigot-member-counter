@@ -1,10 +1,14 @@
 dist: trusty
 language: node_js
 node_js:
-  - "8"
+  - node
 addons:
   chrome: stable
 cache:
   yarn: true
   directories:
     - "node_modules"
+before_install:
+  - npm install -g greenkeeper-lockfile
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
