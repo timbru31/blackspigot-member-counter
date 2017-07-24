@@ -2953,9 +2953,9 @@ ts-jest@~20.0.6:
     tsconfig "^6.0.0"
     yargs "^8.0.1"
 
-ts-node@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-3.2.0.tgz#9814f0c0141784900cf12fef1197ad4b7f4d23d1"
+ts-node@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-3.3.0.tgz#c13c6a3024e30be1180dd53038fc209289d4bf69"
   dependencies:
     arrify "^1.0.0"
     chalk "^2.0.0"
@@ -2965,7 +2965,7 @@ ts-node@3.2.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.0"
     tsconfig "^6.0.0"
-    v8flags "^2.0.11"
+    v8flags "^3.0.0"
     yn "^2.0.0"
 
 tsconfig@^6.0.0:
@@ -2979,7 +2979,7 @@ tslib@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
 
-tslint@5.5.0:
+tslint@~5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.5.0.tgz#10e8dab3e3061fa61e9442e8cee3982acf20a6aa"
   dependencies:
@@ -3064,9 +3064,9 @@ uuid@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
 
-v8flags@^2.0.11:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/v8flags/-/v8flags-2.1.1.tgz#aab1a1fa30d45f88dd321148875ac02c0b55e5b4"
+v8flags@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/v8flags/-/v8flags-3.0.0.tgz#4be9604488e0c4123645def705b1848d16b8e01f"
   dependencies:
     user-home "^1.1.1"
 
