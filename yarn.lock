@@ -823,9 +823,9 @@ cycle@1.0.x:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/cycle/-/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
 
-cz-customizable@~5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/cz-customizable/-/cz-customizable-5.0.0.tgz#a0535bc5d666b45a2d4889aa9397eadb88286064"
+cz-customizable@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/cz-customizable/-/cz-customizable-5.1.0.tgz#12cac0ea433cb87282db2731de69fe0cd56d8442"
   dependencies:
     editor "1.0.0"
     find-config "0.3.0"
@@ -2979,7 +2979,7 @@ tslib@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
 
-tslint@5.6.0:
+tslint@~5.6.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.6.0.tgz#088aa6c6026623338650b2900828ab3edf59f6cf"
   dependencies:
