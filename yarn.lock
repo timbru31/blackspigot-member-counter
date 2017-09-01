@@ -496,9 +496,9 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^4.0.0"
 
-chromedriver@~2.31.0:
-  version "2.31.0"
-  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.31.0.tgz#82c758ee4015aa880f45008bba346433cf9db14a"
+chromedriver@2.32.0:
+  version "2.32.0"
+  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.32.0.tgz#ecad18d7e27adff552c60183a068e3fe9626ae97"
   dependencies:
     extract-zip "^1.6.5"
     kew "^0.7.0"
@@ -2979,7 +2979,7 @@ tslib@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
 
-tslint@5.7.0:
+tslint@~5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.7.0.tgz#c25e0d0c92fa1201c2bc30e844e08e682b4f3552"
   dependencies:
