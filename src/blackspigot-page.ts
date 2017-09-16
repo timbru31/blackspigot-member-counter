@@ -1,5 +1,8 @@
 import * as webdriverio from 'webdriverio';
+
 import { Page } from './abstract-page';
+import { localConfig } from './config/local';
+import { remoteConfig } from './config/saucelabs';
 
 export class BlackSpigotPage extends Page {
   private _client: webdriverio.Client<void>;
@@ -15,17 +18,11 @@ export class BlackSpigotPage extends Page {
   constructor() {
     super();
 
-    this.client = webdriverio.remote({
-      desiredCapabilities: {
-        browserName: 'chrome',
-        chromeOptions: {
-          args: [
-            'headless',
-            'disable-gpu'
-          ]
-        }
-      }
-    });
+    let config = localConfig;
+    if (process.env.REMOTE || process.env.CI) {
+      config = remoteConfig;
+    }
+    this.client = webdriverio.remote(config);
   }
 
   public async open() {
@@ -34,7 +31,7 @@ export class BlackSpigotPage extends Page {
   }
 
   public async isPageLoaded() {
-    return this.client.waitForExist('#logo', 10000);
+    return this.client.waitForExist('#logo', 60000);
   }
 
   public async getUserCount() {
