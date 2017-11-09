@@ -5,6 +5,7 @@
   "scripts": {
     "prepublish": "rimraf ./dist",
     "lint": "tslint -p tsconfig.json .",
+    "pretest": "tsc -p tsconfig.spec.json",
     "test": "jest",
     "release": "standard-version",
     "start": "ts-node ./src/member-counter.ts"
@@ -16,16 +17,18 @@
     "name": "timbru"
   },
   "dependencies": {
-    "@types/webdriverio": "~4.8.4",
+    "@types/webdriverio": "~4.8.6",
     "ts-node": "~3.3.0",
     "typescript": "~2.6.1",
     "webdriverio": "~4.9.3"
   },
   "devDependencies": {
-    "@types/jest": "~21.1.0",
+    "@types/jest": "~21.1.5",
+    "@types/node": "~8.0.50",
     "cz-customizable": "~5.2.0",
-    "jest": "~21.2.0",
+    "jest": "~21.2.1",
     "rimraf": "~2.6.2",
+    "saucelabs": "~1.4.0",
     "standard-version": "~4.2.0",
     "ts-jest": "~21.2.1",
     "tslint": "~5.8.0"
@@ -53,14 +56,24 @@
   ],
   "jest": {
     "transform": {
-      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      "^.+\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testRegex": "/__tests__/.*\\.(test|spec)\\.ts$",
     "moduleFileExtensions": [
       "ts",
       "tsx",
       "js",
       "json"
+    ],
+    "reporters": [
+      "default",
+      [
+        "<rootDir>/tmp/sauce-labs-reporter.js",
+        {
+          "banana": "yes",
+          "pineapple": "no"
+        }
+      ]
     ]
   }
 }

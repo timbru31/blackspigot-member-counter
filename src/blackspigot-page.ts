@@ -27,7 +27,7 @@ export class BlackSpigotPage extends Page {
 
   public async open() {
     await this.client.init();
-    await this.client.url('http://blackspigot.com/');
+    await this.client.url('https://blackspigot.com/');
   }
 
   public async isPageLoaded() {
