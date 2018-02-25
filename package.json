@@ -30,7 +30,7 @@
     "rimraf": "~2.6.2",
     "saucelabs": "~1.4.0",
     "standard-version": "~4.3.0",
-    "ts-jest": "~22.0.0",
+    "ts-jest": "~22.4.0",
     "tslint": "~5.9.0"
   },
   "config": {
