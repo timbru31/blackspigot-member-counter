@@ -28,7 +28,7 @@
     "cz-customizable": "~5.2.0",
     "jest": "~22.1.1",
     "rimraf": "~2.6.2",
-    "saucelabs": "~1.4.0",
+    "saucelabs": "~1.5.0",
     "standard-version": "~4.3.0",
     "ts-jest": "~22.4.0",
     "tslint": "~5.9.0"
