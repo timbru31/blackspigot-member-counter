@@ -10,7 +10,7 @@ export interface ISauceLabsOptions {
 export const remoteConfig: Options & ISauceLabsOptions = {
   desiredCapabilities: {
     browserName: 'chrome',
-    build: process.env.CI ? process.env.TRAVIS_BUILD_ID : null,
+    build: process.env.CI ? process.env.TRAVIS_BUILD_ID : undefined,
     name: `BlackSpigot Test commit ${process.env.CI ? process.env.TRAVIS_COMMIT : 'local'}`,
     tags: process.env.CI ? [process.env.TRAVIS_BRANCH] : [],
   },
