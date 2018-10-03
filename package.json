@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/jest": "^23.3.2",
-    "@types/node": "^8.10.30",
+    "@types/node": "^10.11.4",
     "cz-customizable": "^5.2.0",
     "jest": "^23.6.0",
     "rimraf": "^2.6.2",
