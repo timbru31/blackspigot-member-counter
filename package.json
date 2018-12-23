@@ -21,7 +21,7 @@
     "@types/webdriverio": "^4.10.4",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.3",
-    "webdriverio": "^4.13.2"
+    "webdriverio": "^5.0.3"
   },
   "devDependencies": {
     "@types/jest": "^23.3.7",
