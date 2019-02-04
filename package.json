@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@types/webdriverio": "^4.10.4",
-    "ts-node": "^7.0.1",
+    "ts-node": "^8.0.2",
     "typescript": "^3.0.3",
     "webdriverio": "^4.13.2"
   },
