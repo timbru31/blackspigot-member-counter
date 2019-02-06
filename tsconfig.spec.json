@@ -10,7 +10,7 @@
     "outDir": "tmp",
     "removeComments": true,
     "sourceMap": false,
-    "target": "es2015"
+    "target": "es2018"
   },
   "files": [
     "src/__tests__/sauce-labs-reporter.ts"

@@ -8,7 +8,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/timbru31/blackspigot-member-counter/badge.svg)](https://snyk.io/test/github/timbru31/blackspigot-member-counter)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/timbru31/blackspigot-member-counter.svg)](https://greenkeeper.io/)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=timbru31/blackspigot-member-counter)](https://dependabot.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/blackspigot-member-counter.svg)](https://www.npmjs.com/package/blackspigot-member-counter)
 

@@ -4,7 +4,7 @@
   "description": "A WebDriver backed utility to get the current BlackSpigotMC member count",
   "scripts": {
     "prepublish": "rimraf ./dist",
-    "lint": "tslint -p tsconfig.json .",
+    "lint": "tslint -p tsconfig.json",
     "pretest": "tsc -p tsconfig.spec.json",
     "test": "jest",
     "release": "standard-version",
@@ -18,26 +18,19 @@
     "name": "timbru"
   },
   "dependencies": {
-    "@types/webdriverio": "^4.10.4",
     "ts-node": "^8.0.2",
-    "typescript": "^3.0.3",
-    "webdriverio": "^4.13.2"
+    "typescript": "^3.3.1",
+    "webdriverio": "^5.4.15"
   },
   "devDependencies": {
     "@types/jest": "^24.0.0",
-    "@types/node": "^10.12.17",
-    "cz-customizable": "^5.2.0",
-    "jest": "^23.6.0",
-    "rimraf": "^2.6.2",
+    "@types/node": "^10.12.21",
+    "jest": "^24.1.0",
+    "rimraf": "^2.6.3",
     "saucelabs": "^1.5.0",
     "standard-version": "^4.4.0",
-    "ts-jest": "^23.10.1",
-    "tslint": "^5.11.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    }
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1"
   },
   "license": "MIT",
   "repository": "timbru31/blackspigot-member-counter",
@@ -54,27 +47,5 @@
     "webdriver",
     "webdriverio",
     "selenium"
-  ],
-  "jest": {
-    "transform": {
-      "^.+\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "/__tests__/.*\\.(test|spec)\\.ts$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "json"
-    ],
-    "reporters": [
-      "default",
-      [
-        "<rootDir>/tmp/sauce-labs-reporter.js",
-        {
-          "banana": "yes",
-          "pineapple": "no"
-        }
-      ]
-    ]
-  }
+  ]
 }

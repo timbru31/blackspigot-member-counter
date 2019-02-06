@@ -1,11 +1,12 @@
-import * as webdriverio from 'webdriverio';
 
 import { Page } from './abstract-page';
 import { localConfig } from './config/local';
 import { remoteConfig } from './config/saucelabs';
+import { remote } from 'webdriverio';
+import { Client } from 'webdriver';
 
 export class BlackSpigotPage extends Page {
-  private _client: webdriverio.Client<void>;
+  private _client: Client<void> & WebdriverIO.Browser<void>;
 
   get client() {
     return this._client;
@@ -15,31 +16,30 @@ export class BlackSpigotPage extends Page {
     this._client = client;
   }
 
-  constructor() {
-    super();
-
+  public async prepare() {
     let config = localConfig;
     if (process.env.REMOTE || process.env.CI) {
       config = remoteConfig;
     }
-    this.client = webdriverio.remote(config);
+    this.client = await remote(config);
   }
 
   public async open() {
-    await this.client.init();
-    await this.client.url('https://blackspigot.com/');
+    await this._client.url('https://blackspigot.com/');
   }
 
   public async isPageLoaded() {
-    return this.client.waitForExist('#logo', 60000);
+    const logo = await this._client.$('#logo');
+    return await logo.waitForExist(60000) !== null;
   }
 
   public async getUserCount() {
-    const members = await this.client.element('.memberCount dd').getText();
+    const memberElement = await this._client.$('.memberCount dd');
+    const members = await memberElement.getText();
     return parseInt(members.replace(',', ''), 10);
   }
 
   public async tearDown() {
-    await this.client.end();
+    await this._client.deleteSession();
   }
 }

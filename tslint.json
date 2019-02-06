@@ -4,6 +4,7 @@
   ],
   "rules": {
     "arrow-parens": false,
+    "interface-name": false,
     "no-console": false,
     "no-floating-promises": true,
     "no-implicit-dependencies": [

@@ -9,8 +9,9 @@ export async function getUserCount() {
 
 async function setup() {
   const bs = new BlackSpigotPage();
+  await bs.prepare();
   await bs.open();
-  process.env.SESSION_ID = (await bs.client.url()).sessionId;
+  process.env.SESSION_ID = bs.client.sessionId;
 
   await bs.isPageLoaded();
   return bs;
