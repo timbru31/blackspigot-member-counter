@@ -6,7 +6,6 @@ export interface SauceLabsOptions {
     name: string;
     tags: string[];
   };
-  host?: string;
 }
 
 export const remoteConfig: Options & SauceLabsOptions = {
@@ -16,9 +15,7 @@ export const remoteConfig: Options & SauceLabsOptions = {
     name: `BlackSpigot Test commit ${process.env.CI ? process.env.TRAVIS_COMMIT : 'local'}`,
     tags: process.env.CI ? [process.env.TRAVIS_BRANCH!] : [],
   },
-  host: 'ondemand.saucelabs.com',
   key: process.env.SAUCE_ACCESS_KEY,
   path: '/wd/hub',
-  port: 80,
   user: process.env.SAUCE_USERNAME
 };
