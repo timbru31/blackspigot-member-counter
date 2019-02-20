@@ -1,12 +1,13 @@
+// tslint:disable-next-line:no-implicit-dependencies
+import { Client } from 'webdriver';
+import { remote } from 'webdriverio';
 
 import { Page } from './abstract-page';
 import { localConfig } from './config/local';
 import { remoteConfig } from './config/saucelabs';
-import { remote } from 'webdriverio';
-import { Client } from 'webdriver';
 
 export class BlackSpigotPage extends Page {
-  private _client: Client<void> & WebdriverIO.Browser<void>;
+  private _client: Client & WebdriverIO.Browser;
 
   get client() {
     return this._client;
