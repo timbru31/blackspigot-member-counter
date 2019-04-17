@@ -4449,10 +4449,10 @@ walker@^1.0.7, walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
-webdriver@^5.7.13:
-  version "5.7.13"
-  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-5.7.13.tgz#622619de122183a1b135f8ed14756fe585bceaab"
-  integrity sha512-Yj9yUxr5VqyUlCw+A9SQDccKCmteCcrNUuEM/WiyRtIYYJjpZ3ZsK5Ag9w2rVyDuGME2yr+UsKLbwB7Ev4FXgg==
+webdriver@^5.7.14:
+  version "5.7.14"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-5.7.14.tgz#612dd128c1eabf4b4a0fb573e513e95d471ca8fc"
+  integrity sha512-tqATZtxebsBB0dpwWvyTXmEbdfU/bK+AvYPUGTLzqsZ1uItJ4nEDuI0n3iDZfYBMR2b5FShF5RxMCwkLxaVDmw==
   dependencies:
     "@wdio/config" "^5.7.13"
     "@wdio/logger" "^5.7.8"
@@ -4460,10 +4460,10 @@ webdriver@^5.7.13:
     lodash.merge "^4.6.1"
     request "^2.83.0"
 
-webdriverio@^5.7.13:
-  version "5.7.13"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-5.7.13.tgz#3f6c60a395d26cd2ae46428673bad48d1b4bb172"
-  integrity sha512-mGI5DwdbF4rE4V/PX1DJvDQmt9zz5TFFtLv9JtpFmN8Amutf0IWSMqsQaPneTBcbXlVQPMoWicLXLLCClFd8mw==
+webdriverio@^5.7.14:
+  version "5.7.14"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-5.7.14.tgz#2e79597aa10c1bf64867e2c62b341f3bfed883ab"
+  integrity sha512-rN91WR1g8ORqKI42cy8h7flvCYBKACUF4BxHGmHG0cQkterNahDTjHjRl+Ab3GqfzaBrzYMCA5AdpNNfvqxH9Q==
   dependencies:
     "@wdio/config" "^5.7.13"
     "@wdio/logger" "^5.7.8"
@@ -4476,7 +4476,7 @@ webdriverio@^5.7.13:
     lodash.zip "^4.2.0"
     rgb2hex "^0.1.0"
     serialize-error "^3.0.0"
-    webdriver "^5.7.13"
+    webdriver "^5.7.14"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
