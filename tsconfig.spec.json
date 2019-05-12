@@ -1,18 +1,17 @@
 {
-  "compilerOptions": {
-    "declaration": false,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "outDir": "tmp",
-    "removeComments": true,
-    "sourceMap": false,
-    "target": "es2018"
-  },
-  "files": [
-    "src/__tests__/sauce-labs-reporter.ts"
-  ]
+	"compilerOptions": {
+		"declaration": false,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"outDir": "tmp",
+		"removeComments": true,
+		"sourceMap": false,
+		"target": "es2018",
+		"typeRoots": ["types", "node_modules/@types"]
+	},
+	"files": ["src/__tests__/sauce-labs-reporter.ts"]
 }

@@ -2,13 +2,10 @@
 import { Options } from 'webdriver';
 
 export const localConfig: Options = {
-  capabilities: {
-    'browserName': 'chrome',
-    'goog:chromeOptions': {
-      args: [
-        'headless',
-        'disable-gpu'
-      ]
-    }
-  }
+	capabilities: {
+		browserName: 'chrome',
+		'goog:chromeOptions': {
+			args: ['headless', 'disable-gpu']
+		}
+	}
 };

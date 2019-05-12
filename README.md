@@ -17,4 +17,5 @@
 #### A WebDriver backed utility to get the current member count of BlackSpigotMC
 
 ---
+
 Built by (c) Tim Brust and contributors. Released under the MIT license.
