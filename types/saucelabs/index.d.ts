@@ -8,6 +8,7 @@ declare module 'saucelabs' {
 		constructor(options: Options);
 
 		updateJob(
+			user: string,
 			sessinId: string,
 			options: {
 				passed: boolean;
