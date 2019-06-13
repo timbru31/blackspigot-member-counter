@@ -2,14 +2,15 @@
 	"extends": ["tslint:latest"],
 	"rules": {
 		"arrow-parens": false,
+		"indent": [true, "tabs", 4],
 		"interface-name": false,
 		"no-console": false,
 		"no-floating-promises": true,
 		"no-implicit-dependencies": [true, "dev"],
 		"no-var-requires": false,
+		"object-literal-key-quotes": [true, "as-needed"],
 		"quotemark": [true, "single"],
 		"trailing-comma": [false],
-		"variable-name": [true, "allow-leading-underscore"],
-		"indent": [true, "tabs", 4]
+		"variable-name": [true, "allow-leading-underscore"]
 	}
 }
