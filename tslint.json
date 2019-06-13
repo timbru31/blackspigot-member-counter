@@ -9,6 +9,7 @@
 		"no-var-requires": false,
 		"quotemark": [true, "single"],
 		"trailing-comma": [false],
-		"variable-name": [true, "allow-leading-underscore"]
+		"variable-name": [true, "allow-leading-underscore"],
+		"indent": [true, "tabs", 4]
 	}
 }

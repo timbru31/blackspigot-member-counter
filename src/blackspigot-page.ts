@@ -1,4 +1,4 @@
-import { remote } from 'webdriverio';
+import { BrowserObject, remote } from 'webdriverio';
 
 import { Page } from './abstract-page';
 import { localConfig } from './config/local';
