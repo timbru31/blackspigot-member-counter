@@ -18,7 +18,7 @@
 		"name": "timbru"
 	},
 	"dependencies": {
-		"ts-node": "^8.2.0",
+		"ts-node": "^8.3.0",
 		"typescript": "^3.5.2",
 		"webdriverio": "^5.10.4"
 	},
