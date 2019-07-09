@@ -4391,10 +4391,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-saucelabs@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/saucelabs/-/saucelabs-2.2.1.tgz#2c4fd5082dfb61dc776326d46c35373ad462608f"
-  integrity sha512-A/QytzdOW5EhuElWXzE4BK1+ksMA3f6bGrMUDE+lf99k4W9Chr/iWxH9t/2sKsoOrXX1H/8tieTRGVXOQZWerw==
+saucelabs@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/saucelabs/-/saucelabs-2.3.0.tgz#ac17a4ff7a6d63a5a5f7a990ba235768c4fbe189"
+  integrity sha512-8KPepEH8GcmEk/XQH6w1nsS4sZTuiS6+v3jKC5o/Wvi952Sm7GFqAECVY7c7uvEwxSS1nqyfOCQq+fW99pl3ew==
   dependencies:
     change-case "^3.1.0"
     hash.js "^1.1.7"
