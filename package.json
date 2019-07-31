@@ -20,7 +20,7 @@
 	"dependencies": {
 		"ts-node": "^8.3.0",
 		"typescript": "^3.5.3",
-		"webdriverio": "^5.11.10"
+		"webdriverio": "^5.11.11"
 	},
 	"devDependencies": {
 		"@types/jest": "^24.0.16",
