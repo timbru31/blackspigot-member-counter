@@ -422,31 +422,31 @@
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.12.tgz#45dd1d0638e8c8f153e87d296907659296873916"
   integrity sha512-SOhuU4wNBxhhTHxYaiG5NY4HBhDIDnJF60GU+2LqHAdKKer86//e4yg69aENCtQ04n0ovz+tq2YPME5t5yp4pw==
 
-"@wdio/config@^5.11.0":
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-5.11.0.tgz#ed565abac5aed9fad0d9ef331f2dbd197a7727ad"
-  integrity sha512-FvEQnx7eHHUG3sEJw+vN9NBnnwLvY7b1V74fhbDYoPO0+jHQwz9fjbs2/4IpUi9vz7UPYE2JGiEDQGHcaQUAqg==
+"@wdio/config@^5.12.0":
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-5.12.0.tgz#eb8dfecd5b6053432e642ee0cd5e4d3d11649b6b"
+  integrity sha512-zgyW4GLBX8CI1uq9CDj9+VarGXW9yaV3QG8U3lfTNH2jbsj+lgxCRylQP2fQgLeNHdOERp21+wxJkMwzPLu7vQ==
   dependencies:
-    "@wdio/logger" "^5.11.0"
+    "@wdio/logger" "^5.12.0"
     deepmerge "^4.0.0"
     glob "^7.1.2"
 
-"@wdio/logger@^5.11.0":
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-5.11.0.tgz#1f74698675c54ffb2114fe4ab945b9a0c1663133"
-  integrity sha512-oxSFt1PGX8DZcQdpURU/0eF/pisI7x84bNegk3taJ1EZ2Bti7/r7OqjMlLc+VDpr19ro1ytg2WNNTl+FD5vWXg==
+"@wdio/logger@^5.12.0":
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-5.12.0.tgz#765ac95af034c438081d05f20d1756c8d67340f3"
+  integrity sha512-yO04t6hFmS6yLTcRD8uQUBKiXLZZEmx3Yuf6+c0p+hrtGOEc92nfnSgRnIw5Yr1VQBhaS+FuXjozgVCyPepsuA==
   dependencies:
     chalk "^2.3.0"
     loglevel "^1.6.0"
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^5.2.0"
 
-"@wdio/repl@^5.11.0":
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/@wdio/repl/-/repl-5.11.0.tgz#6f36d4c100c8d2b45c5c8d7a5918b5e5d7dc6a72"
-  integrity sha512-X7lyvRicOV0nIhRqaDl0Cs2BAd5Ny8zD5/9f9xEpI4T0e/UzixtyMMlAjeJiHLgq9re21xPSqMiBM4Uv8hrxvg==
+"@wdio/repl@^5.12.0":
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/@wdio/repl/-/repl-5.12.0.tgz#8e10ee5e56b6bac72a9b064cbc326fcfcfa4d8e8"
+  integrity sha512-g/RU0KwMqQihuRT6hoJ/gD51NzegMeQ/4eN9i45Awy9CPl2PZ2Oc96UtPQuXvR6fTCG5n4jz57DpUyCIOluoUw==
   dependencies:
-    "@wdio/config" "^5.11.0"
+    "@wdio/config" "^5.12.0"
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -5449,25 +5449,25 @@ walker@^1.0.7, walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
-webdriver@^5.11.13:
-  version "5.11.13"
-  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-5.11.13.tgz#b1b060dded854bfd42fc0c1bdd341acc80586c2a"
-  integrity sha512-XZho6xW1G+ksPePKWP54k3nzadTf6skPUTPKUVKAdrgbPgHHEwhMEYJhRgZiQ3ZLSOF/IP6ViwsbZg+BYJ+sbA==
+webdriver@^5.12.0:
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-5.12.0.tgz#371a01a3c9d3219ea02957c0c7720ba7641e2c8e"
+  integrity sha512-2WFyIPNQdu9oVLX21OjVOggwQNZZ6FK0AbUWIi3gjbu9qbZyL03uGyJe6KswOxO/Wvx68/qDYngwiKa3TGN+EA==
   dependencies:
-    "@wdio/config" "^5.11.0"
-    "@wdio/logger" "^5.11.0"
+    "@wdio/config" "^5.12.0"
+    "@wdio/logger" "^5.12.0"
     deepmerge "^4.0.0"
     lodash.merge "^4.6.1"
     request "^2.83.0"
 
-webdriverio@^5.11.14:
-  version "5.11.14"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-5.11.14.tgz#e745cfc4b212754cfc95b6fa374db171adc4028a"
-  integrity sha512-Tt0eq6VjaJOU93kvjyyLD5uHuz7iYx9VCg52GDwGCSE4hq21m9sEO9VFogvhj2QCgxEIR/+CNPoeMVd9R2kXSg==
+webdriverio@^5.12.0:
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-5.12.0.tgz#052e56219aadd6bd070162cfc531a6d2d4ee5445"
+  integrity sha512-qanBezcxhU3/jDcHJ8K5fwV6JNZFxSD8MR4PgzRWYSTpOy+Tt8IaHZa6pf1Iwoew1DYRz8NQ3m9SWwYOOfeulA==
   dependencies:
-    "@wdio/config" "^5.11.0"
-    "@wdio/logger" "^5.11.0"
-    "@wdio/repl" "^5.11.0"
+    "@wdio/config" "^5.12.0"
+    "@wdio/logger" "^5.12.0"
+    "@wdio/repl" "^5.12.0"
     archiver "^3.0.0"
     css-value "^0.0.1"
     grapheme-splitter "^1.0.2"
@@ -5478,7 +5478,7 @@ webdriverio@^5.11.14:
     resq "^1.5.0"
     rgb2hex "^0.1.0"
     serialize-error "^4.1.0"
-    webdriver "^5.11.13"
+    webdriver "^5.12.0"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
