@@ -585,10 +585,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@wdio/config@5.18.4":
-  version "5.18.4"
-  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-5.18.4.tgz#cabbac2f42bb1f8ac768f79d0e7671976d97d30e"
-  integrity sha512-HQugjG+BABDYG/1dPR6KA+IQilsg1MSQ/NVIg8R6I8ER9MA2JNIoaxvXZ+CnDfgY/QpyIHEeqJhfgw8GElaPdw==
+"@wdio/config@5.22.4":
+  version "5.22.4"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-5.22.4.tgz#053d4ba0a8b0dae6be740b1b7b9ab25abac2799e"
+  integrity sha512-i5dJQWb80darcRA//tfG0guMeQCeRUXroZNnHjGNb1qzvTRZmcIIhdxaD+DbK/5dWEx6aoMfoi6wjVp/CXwdAg==
   dependencies:
     "@wdio/logger" "5.16.10"
     deepmerge "^4.0.0"
@@ -5447,25 +5447,25 @@ walker@^1.0.7, walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
-webdriver@5.22.3:
-  version "5.22.3"
-  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-5.22.3.tgz#5091625a354f0867902380ed484e5fc7b0b8bf7b"
-  integrity sha512-43FCQIXiDifKuuWsTxPhN1y13QeY7rtotG8uLGfq94rCmyRqa1Dg7QhjHp1ps58uVMLttybOs4P9DvdueoeWFw==
+webdriver@5.22.4:
+  version "5.22.4"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-5.22.4.tgz#d86ff997429c8a4084d35badfe00f17e861f8595"
+  integrity sha512-IrSb8UUt6MDgBIDaSWyh/kP4VJsHyqnubCTxKi2cEZjOQdxPwnxUfvbSQlMDCHXrcgsPaXwAPjRJVTEt6PzArQ==
   dependencies:
     "@types/request" "^2.48.4"
-    "@wdio/config" "5.18.4"
+    "@wdio/config" "5.22.4"
     "@wdio/logger" "5.16.10"
     "@wdio/protocols" "5.22.1"
     "@wdio/utils" "5.18.6"
     lodash.merge "^4.6.1"
     request "^2.83.0"
 
-webdriverio@^5.22.3:
-  version "5.22.3"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-5.22.3.tgz#e80b51c4c3b2d2f03cf032af0e5b56a4427c4610"
-  integrity sha512-TveG7OO6jRuEbjdvIjiQ4Smwpsl1sxNASH0D0hsXhbtkFXYB/zk+jTzrn2FHjBUGg9utcY+nZbRAiYuZ60O5vg==
+webdriverio@^5.22.4:
+  version "5.22.4"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-5.22.4.tgz#56819998196d86f5a405a76fb41cae10e7dcd641"
+  integrity sha512-6/Qi1/N8wK5r7Mp2aEwB+1FkDQiyiuwQn8lm+dfYhrfWs3kLOKKt3MPeM4I6j2Yv2/mGpYf7WKu2xTj/vkJzBA==
   dependencies:
-    "@wdio/config" "5.18.4"
+    "@wdio/config" "5.22.4"
     "@wdio/logger" "5.16.10"
     "@wdio/repl" "5.18.6"
     "@wdio/utils" "5.18.6"
@@ -5479,7 +5479,7 @@ webdriverio@^5.22.3:
     resq "^1.6.0"
     rgb2hex "^0.1.0"
     serialize-error "^5.0.0"
-    webdriver "5.22.3"
+    webdriver "5.22.4"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
