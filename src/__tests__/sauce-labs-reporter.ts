@@ -14,15 +14,15 @@ class SauceLabsReporter implements Reporter {
 			const user = process.env.SAUCE_USERNAME!!;
 			const sauceLabsAccount = new SauceLabs({
 				user,
-				key: process.env.SAUCE_ACCESS_KEY!!
+				key: process.env.SAUCE_ACCESS_KEY!!,
 			});
 			const sessionId = readFileSync('tmp/sessionId', 'utf-8');
 			return sauceLabsAccount
 				.updateJob(user, sessionId, {
 					id: sessionId,
-					passed
+					passed,
 				})
-				.then(_ => {
+				.then((_) => {
 					return;
 				});
 		}

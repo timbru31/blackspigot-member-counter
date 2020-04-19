@@ -1,11 +1,12 @@
-// tslint:disable-next-line:no-implicit-dependencies
-import { Options } from 'webdriver';
+import { Options } from 'webdriverio';
 
 export const localConfig: Options = {
-	capabilities: {
-		browserName: 'chrome',
-		'goog:chromeOptions': {
-			args: ['headless', 'disable-gpu']
-		}
-	}
+	capabilities: [
+		{
+			browserName: 'chrome',
+			'goog:chromeOptions': {
+				args: ['headless', 'disable-gpu'],
+			},
+		},
+	],
 };
