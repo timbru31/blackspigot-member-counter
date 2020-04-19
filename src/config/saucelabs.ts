@@ -6,6 +6,7 @@ export interface SauceLabsOptions extends Options {
 
 export const remoteConfig: SauceLabsOptions = {
 	capabilities: [
+		// tslint:disable-next-line: no-object-literal-type-assertion
 		{
 			browserName: 'chrome',
 			build: process.env.CI ? process.env.TRAVIS_BUILD_ID : undefined,
