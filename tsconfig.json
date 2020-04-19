@@ -8,8 +8,8 @@
 		"strictNullChecks": true,
 		"outDir": "dist",
 		"removeComments": true,
-		"target": "es2018",
-		"typeRoots": ["types", "node_modules/@types"]
+		"target": "ES2020",
+		"typeRoots": ["node_modules/@types"]
 	},
 	"include": ["src/*.ts"]
 }
