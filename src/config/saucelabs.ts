@@ -1,4 +1,4 @@
-import { Options } from 'webdriverio';
+import { Options, RemoteOptions } from 'webdriverio';
 
 export interface SauceLabsOptions extends WebDriver.Options {
 	path: string;
@@ -12,7 +12,7 @@ interface SauceLabsCapabilities extends WebDriver.DesiredCapabilities {
 	tags?: string[];
 }
 
-export const remoteConfig: SauceLabsOptions = {
+export const remoteConfig: SauceLabsOptions & RemoteOptions = {
 	capabilities: {
 		browserName: 'chrome',
 		build: process.env.CI ? process.env.TRAVIS_BUILD_ID : undefined,
@@ -22,4 +22,5 @@ export const remoteConfig: SauceLabsOptions = {
 	key: process.env.SAUCE_ACCESS_KEY,
 	path: '/wd/hub',
 	user: process.env.SAUCE_USERNAME,
+	automationProtocol: 'webdriver',
 };
