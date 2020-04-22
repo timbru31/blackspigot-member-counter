@@ -12,7 +12,7 @@ interface SauceLabsCapabilities extends WebDriver.DesiredCapabilities {
 	tags?: string[];
 }
 
-export const remoteConfig: SauceLabsOptions & RemoteOptions = {
+export const remoteConfig = {
 	capabilities: {
 		browserName: 'chrome',
 		build: process.env.CI ? process.env.TRAVIS_BUILD_ID : undefined,
@@ -20,7 +20,13 @@ export const remoteConfig: SauceLabsOptions & RemoteOptions = {
 		tags: process.env.CI ? [process.env.TRAVIS_BRANCH!] : [],
 	},
 	key: process.env.SAUCE_ACCESS_KEY,
-	path: '/wd/hub',
 	user: process.env.SAUCE_USERNAME,
-	automationProtocol: 'webdriver',
+	services: [
+		[
+			'sauce',
+			{
+				sauceConnect: true,
+			},
+		],
+	],
 };

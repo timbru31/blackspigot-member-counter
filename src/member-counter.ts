@@ -16,3 +16,5 @@ async function setup() {
 	await bs.isPageLoaded();
 	return bs;
 }
+
+export default getUserCount();
