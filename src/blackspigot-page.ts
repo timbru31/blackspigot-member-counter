@@ -1,4 +1,4 @@
-import { BrowserObject, remote } from 'webdriverio';
+import { BrowserObject, remote, RemoteOptions } from 'webdriverio';
 
 import { Page } from './abstract-page';
 import { localConfig } from './config/local';
@@ -20,7 +20,7 @@ export class BlackSpigotPage extends Page {
 		if (process.env.REMOTE || process.env.CI) {
 			config = remoteConfig;
 		}
-		this.client = await remote(config);
+		this.client = await remote(config as RemoteOptions);
 	}
 
 	public async open() {
@@ -29,7 +29,7 @@ export class BlackSpigotPage extends Page {
 
 	public async isPageLoaded() {
 		const logo = await this._client.$('#logo');
-		return (await logo.waitForExist(60000)) !== null;
+		return (await logo.waitForExist({ timeout: 60000 })) !== null;
 	}
 
 	public async getUserCount() {

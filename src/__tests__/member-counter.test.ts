@@ -4,7 +4,7 @@ import { getUserCount } from '../member-counter';
 test('getUserCount', async () => {
 	jasmine.DEFAULT_TIMEOUT_INTERVAL = 65000;
 	expect.assertions(1);
-	const members = await getUserCount().catch((e: Error) => console.log(e));
+	const members = await getUserCount();
 
 	writeFileSync('tmp/sessionId', process.env.SESSION_ID);
 
