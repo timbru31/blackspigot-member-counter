@@ -1,55 +1,59 @@
 {
-	"name": "blackspigot-member-counter",
-	"version": "0.1.0",
-	"description": "A WebDriver backed utility to get the current BlackSpigotMC member count",
-	"scripts": {
-		"lint": "tslint -p tsconfig.json",
-		"pretest": "tsc -p tsconfig.spec.json",
-		"test": "jest",
-		"prerelease": "rimraf ./dist",
-		"release": "standard-version",
-		"start": "ts-node ./src/member-counter.ts"
-	},
-	"engines": {
-		"node": ">= 12.14",
-		"npm": ">= 6.13"
-	},
-	"author": {
-		"name": "timbru"
-	},
-	"dependencies": {
-		"@wdio/sauce-service": "^6.1.0",
-		"ts-node": "^8.10.1",
-		"typescript": "^3.8.3",
-		"webdriverio": "^6.1.7"
-	},
-	"devDependencies": {
-		"@types/jest": "^25.2.1",
-		"@types/node": "^12.12.37",
-		"husky": "^4.2.5",
-		"jest": "^25.5.3",
-		"lint-staged": "^10.2.1",
-		"prettier": "^2.0.5",
-		"rimraf": "^3.0.2",
-		"saucelabs": "^4.0.2",
-		"standard-version": "^7.1.0",
-		"ts-jest": "^25.4.0",
-		"tslint": "^6.1.2"
-	},
-	"license": "MIT",
-	"repository": "timbru31/blackspigot-member-counter",
-	"bugs": {
-		"url": "https://github.com/timbru31/blackspigot-member-counter/issues"
-	},
-	"keywords": [
-		"blackspigot",
-		"leak",
-		"ban",
-		"spigot",
-		"bukkit",
-		"minecraft",
-		"webdriver",
-		"webdriverio",
-		"selenium"
-	]
+  "name": "blackspigot-member-counter",
+  "version": "0.1.0",
+  "description": "A WebDriver backed utility to get the current BlackSpigotMC member count",
+  "scripts": {
+    "lint": "tslint -p tsconfig.json",
+    "pretest": "tsc -p tsconfig.spec.json",
+    "test": "jest",
+    "prerelease": "rimraf ./dist",
+    "release": "standard-version",
+    "start": "ts-node ./src/member-counter.ts",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "engines": {
+    "node": ">= 12.14",
+    "npm": ">= 6.13"
+  },
+  "author": {
+    "name": "timbru"
+  },
+  "dependencies": {
+    "@wdio/sauce-service": "^6.1.0",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3",
+    "webdriverio": "^6.1.7",
+    "snyk": "^1.317.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^12.12.37",
+    "husky": "^4.2.5",
+    "jest": "^25.5.3",
+    "lint-staged": "^10.2.1",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "saucelabs": "^4.0.2",
+    "standard-version": "^7.1.0",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.2"
+  },
+  "license": "MIT",
+  "repository": "timbru31/blackspigot-member-counter",
+  "bugs": {
+    "url": "https://github.com/timbru31/blackspigot-member-counter/issues"
+  },
+  "keywords": [
+    "blackspigot",
+    "leak",
+    "ban",
+    "spigot",
+    "bukkit",
+    "minecraft",
+    "webdriver",
+    "webdriverio",
+    "selenium"
+  ],
+  "snyk": true
 }
