@@ -18,7 +18,7 @@
 		"name": "timbru"
 	},
 	"dependencies": {
-		"@wdio/sauce-service": "^6.1.9",
+		"@wdio/sauce-service": "^6.1.13",
 		"ts-node": "^8.10.1",
 		"typescript": "^3.9.3",
 		"webdriverio": "^6.1.12"
