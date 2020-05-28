@@ -1,8 +1,8 @@
 import { writeFileSync } from 'fs';
 import { getUserCount } from '../member-counter';
 
+jest.setTimeout(65000);
 test('getUserCount', async () => {
-	jasmine.DEFAULT_TIMEOUT_INTERVAL = 65000;
 	expect.assertions(1);
 	const members = await getUserCount();
 

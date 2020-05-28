@@ -24,6 +24,10 @@ class SauceLabsReporter implements Reporter {
 				})
 				.then((_) => {
 					return;
+				})
+				.catch((e) => {
+					console.log(e);
+					return e;
 				});
 		}
 		return Promise.resolve();
