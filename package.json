@@ -34,7 +34,7 @@
 		"rimraf": "^3.0.2",
 		"saucelabs": "^4.4.0",
 		"standard-version": "^8.0.0",
-		"ts-jest": "^26.0.0",
+		"ts-jest": "^26.1.0",
 		"tslint": "^6.1.2"
 	},
 	"license": "MIT",
