@@ -20,7 +20,7 @@
 	"dependencies": {
 		"@wdio/sauce-service": "^6.1.16",
 		"ts-node": "^8.10.1",
-		"typescript": "^3.9.3",
+		"typescript": "^3.9.5",
 		"webdriverio": "^6.1.16"
 	},
 	"devDependencies": {
