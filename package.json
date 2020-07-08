@@ -24,7 +24,7 @@
 		"webdriverio": "^6.1.25"
 	},
 	"devDependencies": {
-		"@types/jest": "^26.0.3",
+		"@types/jest": "^26.0.4",
 		"@types/node": "^12.12.48",
 		"husky": "^4.2.5",
 		"jest": "^26.1.0",
