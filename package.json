@@ -21,7 +21,7 @@
 		"@wdio/sauce-service": "^6.1.16",
 		"ts-node": "^8.10.1",
 		"typescript": "^3.9.6",
-		"webdriverio": "^6.1.25"
+		"webdriverio": "^6.2.0"
 	},
 	"devDependencies": {
 		"@types/jest": "^26.0.4",
