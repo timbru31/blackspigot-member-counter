@@ -35,7 +35,7 @@
 		"saucelabs": "^4.4.3",
 		"standard-version": "^8.0.2",
 		"ts-jest": "^26.1.4",
-		"tslint": "^6.1.2"
+		"tslint": "^6.1.3"
 	},
 	"license": "MIT",
 	"repository": "timbru31/blackspigot-member-counter",
