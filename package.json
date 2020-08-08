@@ -32,7 +32,7 @@
 		"lint-staged": "^10.2.11",
 		"prettier": "^2.0.5",
 		"rimraf": "^3.0.2",
-		"saucelabs": "^4.4.3",
+		"saucelabs": "^4.4.4",
 		"standard-version": "^8.0.2",
 		"ts-jest": "^26.1.4",
 		"tslint": "^6.1.3"
