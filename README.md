@@ -1,6 +1,5 @@
 # BlackSpigotMC member counter
 
-[![Build Status](https://travis-ci.org/timbru31/blackspigot-member-counter.svg?branch=master)](https://travis-ci.org/timbru31/blackspigot-member-counter)
 [![Build Status](https://app.saucelabs.com/buildstatus/timbru31)](https://app.saucelabs.com/users/timbru31)
 
 [![Dependency Status](https://david-dm.org/timbru31/blackspigot-member-counter.svg)](https://david-dm.org/timbru31/blackspigot-member-counter)

@@ -1,4 +1,4 @@
-name: Run a security audit
+name: Linting
 
 on: [push, pull_request]
 
@@ -9,4 +9,6 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - uses: actions/setup-node@v1
-            - run: npm audit
+            - run: |
+                  npm ci
+                  npm run lint
