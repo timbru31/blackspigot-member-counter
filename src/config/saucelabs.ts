@@ -15,9 +15,9 @@ interface SauceLabsCapabilities extends WebDriver.DesiredCapabilities {
 export const remoteConfig = {
 	capabilities: {
 		browserName: 'chrome',
-		build: process.env.CI ? process.env.TRAVIS_BUILD_ID : undefined,
-		name: `BlackSpigot Test commit ${process.env.CI ? process.env.TRAVIS_COMMIT : 'local'}`,
-		tags: process.env.CI ? [process.env.TRAVIS_BRANCH!] : [],
+		build: process.env.CI ? process.env.GITHUB_RUN_ID : undefined,
+		name: `BlackSpigot Test commit ${process.env.CI ? process.env.GITHUB_SHA : 'local'}`,
+		tags: process.env.CI ? [process.env.GITHUB_REF!] : [],
 	},
 	key: process.env.SAUCE_ACCESS_KEY,
 	user: process.env.SAUCE_USERNAME,
