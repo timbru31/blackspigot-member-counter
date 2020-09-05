@@ -9,4 +9,9 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - uses: actions/setup-node@v1
+              with:
+                  node-version: '12'
             - run: npm cit
+              env:
+                  SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
+                  SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
