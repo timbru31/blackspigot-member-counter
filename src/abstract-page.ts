@@ -1,5 +1,5 @@
 export abstract class Page {
-	public abstract async isPageLoaded(): Promise<boolean>;
-	public abstract async tearDown(): Promise<void>;
-	public abstract async open(): Promise<void>;
+	public abstract isPageLoaded(): Promise<boolean>;
+	public abstract tearDown(): Promise<void>;
+	public abstract open(): Promise<void>;
 }
