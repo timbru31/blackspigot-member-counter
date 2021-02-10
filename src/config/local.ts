@@ -1,4 +1,6 @@
-export const localConfig: WebDriver.Options = {
+import { RemoteOptions } from 'webdriverio';
+
+export const localConfig: RemoteOptions = {
 	capabilities: {
 		browserName: 'chrome',
 	},
