@@ -8,7 +8,7 @@
 		"strictNullChecks": true,
 		"outDir": "dist",
 		"removeComments": true,
-		"target": "ES2020",
+		"target": "ES2019",
 		"typeRoots": ["node_modules/@types"]
 	},
 	"include": ["src/*.ts"]

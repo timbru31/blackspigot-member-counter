@@ -11,8 +11,8 @@
 		"start": "ts-node ./src/member-counter.ts"
 	},
 	"engines": {
-		"node": ">= 12.14",
-		"npm": ">= 6.13"
+		"node": ">= 12.20",
+		"npm": ">= 6.14"
 	},
 	"author": {
 		"name": "timbru"
