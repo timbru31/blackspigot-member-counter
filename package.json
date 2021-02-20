@@ -3,12 +3,15 @@
 	"version": "0.1.0",
 	"description": "A WebDriver backed utility to get the current BlackSpigotMC member count",
 	"scripts": {
+		"postinstall": "husky install",
 		"lint": "tslint -p tsconfig.json",
 		"pretest": "tsc -p tsconfig.spec.json",
 		"test": "jest",
 		"prerelease": "rimraf ./dist",
 		"release": "standard-version",
-		"start": "ts-node ./src/member-counter.ts"
+		"start": "ts-node ./src/member-counter.ts",
+		"prepublishOnly": "pinst --disable",
+		"postpublish": "pinst --enable"
 	},
 	"engines": {
 		"node": ">= 12.20",
@@ -26,10 +29,11 @@
 	"devDependencies": {
 		"@types/jest": "^26.0.20",
 		"@types/node": "^12.20.3",
-		"husky": "^4.3.8",
+		"husky": "^5.0.9",
 		"jest": "^26.6.3",
 		"jest-circus": "^26.6.3",
 		"lint-staged": "^10.5.4",
+		"pinst": "^2.1.4",
 		"prettier": "^2.2.1",
 		"rimraf": "^3.0.2",
 		"saucelabs": "^4.6.5",
