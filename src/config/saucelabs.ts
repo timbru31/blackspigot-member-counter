@@ -2,6 +2,7 @@ import { RemoteOptions } from 'webdriverio';
 
 export const remoteConfig: RemoteOptions = {
 	capabilities: {
+		platformName: 'Windows 10',
 		browserName: 'chrome',
 		'sauce:options': {
 			build: process.env.CI ? process.env.GITHUB_RUN_ID : undefined,
