@@ -34,7 +34,7 @@
 		"jest-circus": "^26.6.3",
 		"lint-staged": "^11.0.0",
 		"pinst": "^2.1.6",
-		"prettier": "^2.2.1",
+		"prettier": "^2.3.0",
 		"rimraf": "^3.0.2",
 		"saucelabs": "^4.7.5",
 		"standard-version": "^9.3.0",
