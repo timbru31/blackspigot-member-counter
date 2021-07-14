@@ -37,7 +37,7 @@
 		"prettier": "^2.3.2",
 		"rimraf": "^3.0.2",
 		"saucelabs": "^5.1.0",
-		"standard-version": "^9.3.0",
+		"standard-version": "^9.3.1",
 		"ts-jest": "^26.5.6",
 		"tslint": "^6.1.3"
 	},
