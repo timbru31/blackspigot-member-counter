@@ -20,12 +20,12 @@ export class BlackSpigotPage extends Page {
 	}
 
 	public async isPageLoaded() {
-		const logo = await this.client.$('#logo');
+		const logo = await this.client.$('.p-header-logo');
 		return (await logo.waitForExist({ timeout: 60000 })) !== null;
 	}
 
 	public async getUserCount() {
-		const memberElement = await this.client.$('.memberCount dd');
+		const memberElement = (await this.client.$$('dl.pairs dd'))[2];
 		const members = await memberElement.getText();
 		return parseInt(members.replace(',', ''), 10);
 	}
