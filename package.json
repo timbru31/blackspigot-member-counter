@@ -1,6 +1,6 @@
 {
 	"name": "blackspigot-member-counter",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "A WebDriver backed utility to get the current BlackSpigotMC member count",
 	"scripts": {
 		"postinstall": "husky install",
@@ -14,31 +14,31 @@
 		"postpublish": "pinst --enable"
 	},
 	"engines": {
-		"node": ">= 12.20",
+		"node": ">= 14.17",
 		"npm": ">= 6.14"
 	},
 	"author": {
 		"name": "timbru"
 	},
 	"dependencies": {
-		"@wdio/sauce-service": "^7.7.3",
+		"@wdio/sauce-service": "^7.9.0",
 		"ts-node": "^10.1.0",
 		"typescript": "^4.3.5",
-		"webdriverio": "^7.7.3"
+		"webdriverio": "^7.9.0"
 	},
 	"devDependencies": {
 		"@types/jest": "^26.0.24",
 		"@types/node": "^12.20.16",
 		"husky": "^7.0.1",
-		"jest": "^26.6.3",
-		"jest-circus": "^26.6.3",
-		"lint-staged": "^11.0.1",
+		"jest": "^27.0.6",
+		"jest-circus": "^27.0.6",
+		"lint-staged": "^11.1.1",
 		"pinst": "^2.1.6",
 		"prettier": "^2.3.2",
 		"rimraf": "^3.0.2",
-		"saucelabs": "^5.1.0",
+		"saucelabs": "^6.0.0",
 		"standard-version": "^9.3.1",
-		"ts-jest": "^26.5.6",
+		"ts-jest": "^27.0.4",
 		"tslint": "^6.1.3"
 	},
 	"license": "MIT",
