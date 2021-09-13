@@ -31,7 +31,7 @@
 		"@types/node": "^12.20.21",
 		"husky": "^7.0.2",
 		"jest": "^27.0.6",
-		"jest-circus": "^27.0.6",
+		"jest-circus": "^27.2.0",
 		"lint-staged": "^11.1.2",
 		"pinst": "^2.1.6",
 		"prettier": "^2.3.2",
