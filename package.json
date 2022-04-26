@@ -28,7 +28,7 @@
 	},
 	"devDependencies": {
 		"@types/jest": "^27.4.1",
-		"@types/node": "^12.20.49",
+		"@types/node": "^12.20.50",
 		"husky": "^7.0.4",
 		"jest": "^27.5.1",
 		"jest-circus": "^27.5.1",
